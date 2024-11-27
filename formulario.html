@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    
+</head>
+<body>
+    <form action="" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" 
+        name="" maxlength="30" 
+        placeholder="Escribe aquí tu nombre" 
+        required> <br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" 
+        name="" maxlength="30" 
+        placeholder="Escribe aquí tus apellidos" 
+        required> <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" 
+        name="email" 
+        required> <br>
+        <label for="asunto">Asunto: </label>
+            <select name="asunto" id="asunto"><br>
+                 <option value="presupuesto">Presupuesto</option>
+                 <option value="cita-previa">Cita Previa</option>
+                 <option value="otros">otros</option>
+                </select><br>
+       <label for="conocido">¿Cómo nos has conocido?:</label>
+            <select name="conocido" id="conocido" size="3">
+                <option value="un-amigo">Un amigo</option>
+                <option value="redes">Redes Sociales</option>
+                <option value="correo">Por Correo</option>
+                <option value="anuncio">Anuncio</option>
+            </select><br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" maxlength="300"></textarea><br>
+        <input type="checkbox" id="rgpd"name="rgpd" required>
+        <label for="rgpd">Acepto la cláusula RGPD</label>
+
+
+        
+        
+
+     
+
+    </form>
+</body>
+</html>
